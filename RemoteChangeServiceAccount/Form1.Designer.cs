@@ -29,17 +29,17 @@ namespace RemoteChangeServiceAccount
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBoxCredentials = new System.Windows.Forms.GroupBox();
             this.radioButtonNetworkService = new System.Windows.Forms.RadioButton();
             this.radioButtonSpecificUser = new System.Windows.Forms.RadioButton();
@@ -91,8 +91,6 @@ namespace RemoteChangeServiceAccount
             this.textBox_Console = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.numericUpDown_MaxDegreeOfParallelism = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.groupBoxCredentials.SuspendLayout();
             this.groupBoxManagementServer.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -407,9 +405,9 @@ namespace RemoteChangeServiceAccount
             this.serversDataGridView.Location = new System.Drawing.Point(3, 16);
             this.serversDataGridView.Name = "serversDataGridView";
             this.serversDataGridView.RowHeadersVisible = false;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DarkGray;
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            this.serversDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.DarkGray;
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
+            this.serversDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle13;
             this.serversDataGridView.Size = new System.Drawing.Size(998, 128);
             this.serversDataGridView.TabIndex = 0;
             // 
@@ -441,8 +439,8 @@ namespace RemoteChangeServiceAccount
             // 
             // Password
             // 
-            dataGridViewCellStyle1.NullValue = null;
-            this.Password.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle12.NullValue = null;
+            this.Password.DefaultCellStyle = dataGridViewCellStyle12;
             this.Password.HeaderText = "Password";
             this.Password.Name = "Password";
             // 
@@ -489,23 +487,23 @@ namespace RemoteChangeServiceAccount
             // 
             // ServiceServer
             // 
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ServiceServer.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ServiceServer.DefaultCellStyle = dataGridViewCellStyle14;
             this.ServiceServer.HeaderText = "ServiceServer";
             this.ServiceServer.Name = "ServiceServer";
             // 
             // ServiceName
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ServiceName.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ServiceName.DefaultCellStyle = dataGridViewCellStyle15;
             this.ServiceName.HeaderText = "ServiceName";
             this.ServiceName.Name = "ServiceName";
             this.ServiceName.ReadOnly = true;
             // 
             // ServiceUserName
             // 
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ServiceUserName.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ServiceUserName.DefaultCellStyle = dataGridViewCellStyle16;
             this.ServiceUserName.FillWeight = 60F;
             this.ServiceUserName.HeaderText = "ServiceUserName";
             this.ServiceUserName.Name = "ServiceUserName";
@@ -513,8 +511,8 @@ namespace RemoteChangeServiceAccount
             // 
             // ServiceState
             // 
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ServiceState.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ServiceState.DefaultCellStyle = dataGridViewCellStyle17;
             this.ServiceState.FillWeight = 40F;
             this.ServiceState.HeaderText = "ServiceState";
             this.ServiceState.Name = "ServiceState";
@@ -522,10 +520,10 @@ namespace RemoteChangeServiceAccount
             // 
             // ServiceSelected
             // 
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle7.NullValue = false;
-            this.ServiceSelected.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle18.NullValue = false;
+            this.ServiceSelected.DefaultCellStyle = dataGridViewCellStyle18;
             this.ServiceSelected.FillWeight = 15F;
             this.ServiceSelected.HeaderText = " ";
             this.ServiceSelected.Name = "ServiceSelected";
@@ -566,16 +564,16 @@ namespace RemoteChangeServiceAccount
             // 
             // AppPoolName
             // 
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.AppPoolName.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.AppPoolName.DefaultCellStyle = dataGridViewCellStyle19;
             this.AppPoolName.HeaderText = "AppPoolName";
             this.AppPoolName.Name = "AppPoolName";
             this.AppPoolName.ReadOnly = true;
             // 
             // AppPoolUserName
             // 
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.AppPoolUserName.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.AppPoolUserName.DefaultCellStyle = dataGridViewCellStyle20;
             this.AppPoolUserName.FillWeight = 60F;
             this.AppPoolUserName.HeaderText = "AppPoolUserName";
             this.AppPoolUserName.Name = "AppPoolUserName";
@@ -583,8 +581,8 @@ namespace RemoteChangeServiceAccount
             // 
             // AppPoolState
             // 
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.AppPoolState.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.AppPoolState.DefaultCellStyle = dataGridViewCellStyle21;
             this.AppPoolState.FillWeight = 40F;
             this.AppPoolState.HeaderText = "AppPoolState";
             this.AppPoolState.Name = "AppPoolState";
@@ -592,10 +590,10 @@ namespace RemoteChangeServiceAccount
             // 
             // AppPoolSelected
             // 
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle11.NullValue = false;
-            this.AppPoolSelected.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle22.NullValue = false;
+            this.AppPoolSelected.DefaultCellStyle = dataGridViewCellStyle22;
             this.AppPoolSelected.FillWeight = 15F;
             this.AppPoolSelected.HeaderText = " ";
             this.AppPoolSelected.Name = "AppPoolSelected";
@@ -631,38 +629,12 @@ namespace RemoteChangeServiceAccount
             0,
             0});
             // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.Snow;
-            this.button1.Location = new System.Drawing.Point(670, 51);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 30);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Change Credentials";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.Snow;
-            this.button2.Location = new System.Drawing.Point(910, 53);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 30);
-            this.button2.TabIndex = 25;
-            this.button2.Text = "Change Credentials";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(1023, 735);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numericUpDown_MaxDegreeOfParallelism);
             this.Controls.Add(this.textBox_Console);
@@ -742,8 +714,6 @@ namespace RemoteChangeServiceAccount
         private System.Windows.Forms.Button buttonGetServices;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.NumericUpDown numericUpDown_MaxDegreeOfParallelism;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
     }
 }
 

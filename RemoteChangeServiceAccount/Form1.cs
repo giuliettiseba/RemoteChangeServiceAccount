@@ -730,79 +730,8 @@ namespace RemoteChangeServiceAccount
 
 
         }
-        ManagementScope theScope;
-        private void button2_Click(object sender, EventArgs e)
-        {
-            ServerInfo serverInfo = new ServerInfo()
-            {
-                Domain = "MEX-LAB",
-                UserName = "SGIU",
-                Password = "Milestone1$",
-                Address = "10.1.0.215"
-
-            };
-            string fullPath = @"C:\Program Files\Milestone\Server Configurator\ServerConfigurator.exe /register";
-
-
-            ConnectionOptions theConnection = new ConnectionOptions();
-            theConnection.Authority = "ntlmdomain:" + serverInfo.Domain;
-            theConnection.Username = serverInfo.UserName;
-            //theConnection.Password = remoteInfo.Password;
-            theConnection.SecurePassword = new NetworkCredential("", serverInfo.Password).SecurePassword;
-
-
-            theConnection.Impersonation = ImpersonationLevel.Impersonate;
-            theConnection.Authentication = AuthenticationLevel.PacketPrivacy;
-
-
-
-            if (theScope == null)
-            {
-                theScope = new ManagementScope("\\\\" + serverInfo.Address + "\\root\\cimv2", theConnection);
-                theScope.Connect();
-            }
-
-            object[] theProcessToRun = { fullPath, null, null, 0 };
-
-            //            ManagementClass theClass = new ManagementClass(theScope, new ManagementPath("Win32_Process"), new ObjectGetOptions());
-
-            bool IsInteractive = true;
-
-            uint mjob = 0;
-            fullPath = "Notepad.exe";
-
-
-            ManagementClass classInstance = new ManagementClass(theScope, new ManagementPath("Win32_ScheduledJob"), null);
-            object[] arrParams = { fullPath, "20210823162500.030617-300", false, null, null, IsInteractive, mjob };
-            var output = classInstance.InvokeMethod("Create", arrParams);
-
-
-            //var output = (uint)theClass.InvokeMethod("Create", theProcessToRun);
-
-            //            WriteInConsole(ErrorCodeToString(output), LogType.debug);
-            if ((uint)output == 0)
-                WriteInConsole(theProcessToRun[3].ToString() + " - " + mjob, LogType.debug);
-
-
-
-
-
-            //I use Select LocalDateTime from Win32_OperatingSystem to get local time of remote machine
-            //String strTime = Get_TimeZone(scope);
-            //String extendedTime = (Convert.ToInt32(Microsoft.VisualBasic.Strings.Mid(strTime, 9, 4)) + 2).ToString();
-
-            //if (Microsoft.VisualBasic.Strings.Mid(strTime, 9, 1).Equals("0")) { extendedTime = "0" + extendedTime; }
-            //strTime = Microsoft.VisualBasic.Strings.Replace(strTime, (Microsoft.VisualBasic.Strings.Mid(strTime, 9, 4)), extendedTime, 1, -1, Microsoft.VisualBasic.CompareMethod.Text);
-
-            //pFileName = @"C:\Program Files\QueUp\Que.exe"
-
-
-
-
-
-
-
-        }
+      
+        
     }
 }
 
